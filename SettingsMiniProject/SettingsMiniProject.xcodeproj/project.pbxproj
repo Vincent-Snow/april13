@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C3A98F271CBEA894003B2CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F261CBEA894003B2CCB /* AppDelegate.swift */; };
-		C3A98F291CBEA894003B2CCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F281CBEA894003B2CCB /* ViewController.swift */; };
 		C3A98F2C1CBEA894003B2CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A98F2A1CBEA894003B2CCB /* Main.storyboard */; };
 		C3A98F2E1CBEA894003B2CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A98F2D1CBEA894003B2CCB /* Assets.xcassets */; };
 		C3A98F311CBEA894003B2CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A98F2F1CBEA894003B2CCB /* LaunchScreen.storyboard */; };
+		C3A98F391CBEAA27003B2CCB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F381CBEAA27003B2CCB /* SettingsViewController.swift */; };
+		C3A98F3D1CBEAF96003B2CCB /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F3C1CBEAF96003B2CCB /* SettingsTableViewCell.swift */; };
+		C3A98F3F1CBEB0BB003B2CCB /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F3E1CBEB0BB003B2CCB /* Setting.swift */; };
+		C3A98F411CBEB180003B2CCB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A98F401CBEB180003B2CCB /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3A98F231CBEA894003B2CCB /* SettingsMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A98F261CBEA894003B2CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3A98F281CBEA894003B2CCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3A98F2B1CBEA894003B2CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3A98F2D1CBEA894003B2CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A98F301CBEA894003B2CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3A98F321CBEA894003B2CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A98F381CBEAA27003B2CCB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C3A98F3C1CBEAF96003B2CCB /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		C3A98F3E1CBEB0BB003B2CCB /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		C3A98F401CBEB180003B2CCB /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				C3A98F261CBEA894003B2CCB /* AppDelegate.swift */,
-				C3A98F281CBEA894003B2CCB /* ViewController.swift */,
 				C3A98F2A1CBEA894003B2CCB /* Main.storyboard */,
+				C3A98F3C1CBEAF96003B2CCB /* SettingsTableViewCell.swift */,
+				C3A98F3E1CBEB0BB003B2CCB /* Setting.swift */,
+				C3A98F401CBEB180003B2CCB /* SettingsController.swift */,
+				C3A98F381CBEAA27003B2CCB /* SettingsViewController.swift */,
 				C3A98F2D1CBEA894003B2CCB /* Assets.xcassets */,
 				C3A98F2F1CBEA894003B2CCB /* LaunchScreen.storyboard */,
 				C3A98F321CBEA894003B2CCB /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A98F291CBEA894003B2CCB /* ViewController.swift in Sources */,
 				C3A98F271CBEA894003B2CCB /* AppDelegate.swift in Sources */,
+				C3A98F411CBEB180003B2CCB /* SettingsController.swift in Sources */,
+				C3A98F391CBEAA27003B2CCB /* SettingsViewController.swift in Sources */,
+				C3A98F3F1CBEB0BB003B2CCB /* Setting.swift in Sources */,
+				C3A98F3D1CBEAF96003B2CCB /* SettingsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
